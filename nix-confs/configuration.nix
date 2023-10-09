@@ -46,8 +46,9 @@
   services.xserver.enable = true;
 
   # Enable the Budgie Desktop environment.
-  services.xserver.displayManager.lightdm.enable = true;
+  services.xserver.displayManager.sddm.enable = true;
   services.xserver.desktopManager.budgie.enable = true;
+  services.xserver.windowManager.i3.enable = true;
 
   # Configure keymap in X11
   services.xserver = {
@@ -97,7 +98,11 @@
   environment.systemPackages = with pkgs; [
      vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
      wget
+     neofetch
+     git
+     alacritty
   ];
+
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;
@@ -126,4 +131,3 @@
   system.stateVersion = "23.05"; # Did you read the comment?
 
 }
-
