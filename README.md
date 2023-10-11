@@ -1,5 +1,12 @@
 # nixpie-dotfiles
 
+packages used:
+
+- alacritty (terminal emulator)
+- i3
+- i3gaps
+- i3blocks
+
 ### Build 23.05 : Budgie Desktop Environment generation
 
 ![image](https://github.com/chococandy63/nixpie-dotfiles/assets/79960426/162861bd-9384-47e7-8a22-fb9456c46002)
