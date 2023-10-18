@@ -35,7 +35,7 @@ To switch to a different NixOS channel, do
 
 To Upgrade NixOS to the latest version in your chosen channel by running
 
-`nixos-rebuild switch --upgrade`
+`sudo nixos-rebuild switch --upgrade`
 
 Automatic Upgrades- You can keep a NixOS system up-to-date automatically by adding the following to configuration.nix:
 
