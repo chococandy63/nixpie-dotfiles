@@ -16,4 +16,8 @@ packages used:
 ![WhatsApp Image 2023-10-11 at 13 23 37](https://github.com/chococandy63/nixpie-dotfiles/assets/79960426/06ffc2e3-446b-469a-a91d-b7ef16b177d8)
 
 
+### Set up 
 
+ Autostart Virsh- `sudo virsh net-autostart default` : To enable libvirtd instances 
+
+ Check- `sudo virsh net-list --all`
