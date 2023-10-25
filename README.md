@@ -15,6 +15,9 @@ packages used:
 
 ![WhatsApp Image 2023-10-11 at 13 23 37](https://github.com/chococandy63/nixpie-dotfiles/assets/79960426/06ffc2e3-446b-469a-a91d-b7ef16b177d8)
 
+![image](https://github.com/chococandy63/nixpie-dotfiles/assets/79960426/fe7bb50f-c9d6-4374-bc7b-fd69a78ef0be)
+
+
 
 ### Set Up NixOS
 
@@ -43,4 +46,11 @@ Automatic Upgrades- You can keep a NixOS system up-to-date automatically by addi
 
 ```system.autoUpgrade.allowReboot  = true;```
 
+### Setup Home Manager
+
+After making changes to home manager folder
+
+```home-manager switch``` or
+
+```home-manager switch --flake ~/.config/home-manager/#chococandy```
 
